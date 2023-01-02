@@ -147,6 +147,10 @@ body {
     gap: 0.5rem;
 }
 
+.add-cart-btn:hover {
+    background-color: #499C7D;
+}
+
 .add-cart-btn:active {
     background-color: #1A4031;
 }
