@@ -50,4 +50,15 @@ body {
 
 .card{
     background-color: var(--white);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card-body {
+    padding: 1.5rem;
 }
