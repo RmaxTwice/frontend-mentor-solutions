@@ -1,14 +1,9 @@
-/* CSS Reset rules */
-/* makes sizing simpler */
-
+/**************** CSS Reset rules ****************/
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
-
-/* remove default spacing */
-/* force styling of type through styling, rather than elements */
 
 * {
     margin: 0;
@@ -16,13 +11,10 @@
     font: inherit;
 }
 
-/* min body height */
-
 body {
     min-height: 100vh;
 }
 
-/* responsive images/videos */
 img,
 picture,
 svg,
@@ -31,7 +23,7 @@ video {
     max-width: 100%;
 }
 
-/* Basic Styling Rules */
+/*************** Styling Rules ***************/
 body {
     font-family: 'Outfit', serif;
     font-size: 15px;
@@ -43,7 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 1.5rem;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .card {
