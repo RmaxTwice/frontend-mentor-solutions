@@ -89,6 +89,26 @@ body {
     line-height: 1.4rem;
 }
 
+.prices {
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.new-price {
+    color: var(--dark-cyan);
+    font-family: 'Fraunces', serif;
+    font-size: var(--big-text-size);
+    font-weight: 700 !important;
+    padding-right: 1rem;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-weight: 700;
+}
+
+
 .add-cart-btn {
     color: var(--white);
     background-color: var(--dark-cyan);
