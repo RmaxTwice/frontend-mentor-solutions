@@ -59,12 +59,36 @@ body {
     flex-direction: column;
 }
 
-.card img {
+.desktop-img {
+    border-radius: 0.5rem 0 0 0.5rem;
+    display: none;
+}
+
+.mobile-img {
     border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .card-body {
     padding: 1.5rem;
+}
+
+@media (min-width: 40rem) {
+    .card {
+        flex-direction: row;
+        max-width: 35rem;
+    }
+
+    .desktop-img {
+        display: block;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
+    .card-body {
+        max-width: 50%;
+    }
 }
 
 .card-body>h5 {
