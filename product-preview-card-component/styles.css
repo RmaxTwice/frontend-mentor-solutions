@@ -37,4 +37,17 @@ video {
 body {
     font-size: 14px;
     font-family: 'Montserrat', serif;
+    background-color: var(--cream);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    min-height: 100vh;
+}
+
+.card{
+    background-color: var(--white);
 }
