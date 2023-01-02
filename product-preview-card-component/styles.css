@@ -146,3 +146,7 @@ body {
     justify-content: center;
     gap: 0.5rem;
 }
+
+.add-cart-btn:active {
+    background-color: #1A4031;
+}
